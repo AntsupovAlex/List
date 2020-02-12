@@ -6,13 +6,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:layout_width="160dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
+    <Button      
+        style="@style/ButtonStyle"
         android:layout_margin="16dp"
         android:text="@string/add_button"
-        android:background="@color/colorBackground"
         android:onClick="addMain"/>
 
 

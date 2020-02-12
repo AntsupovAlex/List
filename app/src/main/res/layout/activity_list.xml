@@ -20,22 +20,16 @@
 
         <Button
             android:id="@+id/enter_add_text"
-            android:layout_width="120dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
+            style="@style/ButtonStyle"
             android:layout_margin="8dp"
             android:text="@string/save_button"
-            android:background="@color/colorBackground"
             android:onClick="save"/>
 
         <Button
             android:id="@+id/enter_delete_text"
-            android:layout_width="120dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
             android:layout_margin="8dp"
+            style="@style/ButtonStyle"
             android:text="@string/delete_button"
-            android:background="@color/colorBackground"
             android:onClick="delete"/>
 
     </LinearLayout>
